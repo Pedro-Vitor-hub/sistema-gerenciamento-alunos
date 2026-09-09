@@ -1,5 +1,21 @@
-.idea
+# IntelliJ IDEA
+.idea/
 *.iml
-out/
-target/
 .gitignore
+
+# Maven
+target/
+pom.xml
+
+# Compilados
+out/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração com credenciais
+.env
