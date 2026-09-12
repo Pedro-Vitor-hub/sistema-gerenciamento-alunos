@@ -1,12 +1,8 @@
     package org.example;
 
-    import java.util.Optional;
-
     public class Main {
         public static void main(String[] args) {
-           AlunoDAO teste = new AlunoDAO();
-           Aluno aluno1 = new Aluno(1,"Pedro",26,9.5);
-           teste.atulizarAluno(aluno1);
-           teste.removerAluno(1);
+           AlunoService alunoService = new AlunoService(new AlunoDAO());
+            Aluno aluno = new Aluno("asfdfa",15, 9.0);
         }
     }
