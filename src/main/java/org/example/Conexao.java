@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class Conexao {
     public  Connection conexaoSql(){
         String url = "jdbc:postgresql://localhost:5432/gerenciamento_alunos";
-        String user = "postgres";
-        String password = "1234";
+        String user = "";
+        String password = "";
 
         try {
             Connection conn = DriverManager.getConnection(url,user,password);
